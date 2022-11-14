@@ -18,8 +18,15 @@ Columns: ['ID', 'AGE', 'GENDER', 'DRIVING_EXPERIENCE', 'EDUCATION', 'INCOME',
  
  
  
+ ## Files
+ 
  train_ohe_dt.py: I used One Hot Encoding and used Decision Tree model in this file.
  
  train_ohe_etc.py: I used One Hot Encoding and used Extra Tree Classifier model in this file.
 
  train_ohe_xgb.py: I used One Hot Encoding and used XGBoost Classifier model in this file.
+
+
+## Leaderboard Ranking
+
+Leaderboard Rank: 106 Out of 1008
