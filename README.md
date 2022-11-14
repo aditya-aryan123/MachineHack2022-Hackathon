@@ -10,14 +10,16 @@ You have to step into the shoes of a data scientist who is building models to he
 You are given a rich dataset consisting of thousands of rows of past records, which you can use to learn more about your customers’ behaviours. For example, you are supposed to create an ML model to look at a case of an insurance claim and decide whether to reject or accept it. 
 
 Columns: ['ID', 'AGE', 'GENDER', 'DRIVING_EXPERIENCE', 'EDUCATION', 'INCOME',
-
-                   'CREDIT_SCORE', 'VEHICLE_OWNERSHIP', 'VEHICLE_YEAR', 'MARRIED',
-
-                  'CHILDREN', 'POSTAL_CODE', 'ANNUAL_MILEAGE', 'SPEEDING_VIOLATIONS',
-
-                  'DUIS', 'PAST_ACCIDENTS', 'OUTCOME', 'TYPE_OF_VEHICLE']
+          'CREDIT_SCORE', 'VEHICLE_OWNERSHIP', 'VEHICLE_YEAR', 'MARRIED',
+          'CHILDREN', 'POSTAL_CODE', 'ANNUAL_MILEAGE', 'SPEEDING_VIOLATIONS',
+          'DUIS', 'PAST_ACCIDENTS', 'OUTCOME', 'TYPE_OF_VEHICLE']
 
  Learn and predict the OUTCOME variable.
  
  
  
+ train_ohe_dt.py: I used One Hot Encoding and used Decision Tree model in this file.
+ 
+ train_ohe_etc.py: I used One Hot Encoding and used Extra Tree Classifier model in this file.
+
+ train_ohe_xgb.py: I used One Hot Encoding and used XGBoost Classifier model in this file.
