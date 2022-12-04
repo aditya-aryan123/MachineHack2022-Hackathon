@@ -20,11 +20,23 @@ Columns: ['ID', 'AGE', 'GENDER', 'DRIVING_EXPERIENCE', 'EDUCATION', 'INCOME',
  
  ## Files
  
- Analysis.ipynb: Analysis File
+Analysis.ipynb: Analysis File
  
- Untitles1.ipynb: Analysis File
+Untitles1.ipynb: Analysis File
 
- train_ohe_xgb.py: I used One Hot Encoding and used XGBoost Classifier model in this file.
+train_ohe_xgb.py: I used One Hot Encoding and used XGBoost Classifier model.
+ 
+oe_te_xgb.py: I used Ordinal Encoding, Target Encoding and build XGBoost Classifier.
+
+train_fe_ohe_xgb.py: I used Frequency Encoding, One Hot Encoding and build XGBoost Classifier.
+
+train_oe_le_xgb.py: I used Ordinal Encoding, Label Encoding and build XGBoost Classifier.
+
+train_ohe_dt.py: I used One Hot Encoding and build Decision Tree Classifier.
+
+train_ohe_etc.py: I used One Hot Encoding and build Extra Tree Classifier.
+
+grid_etc.py: Grid Search on Extra Tree Classifier.
 
 
 ## Leaderboard Ranking
